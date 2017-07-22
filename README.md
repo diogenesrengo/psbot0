@@ -7,7 +7,8 @@ capture data from tables like cards, stacks, stage, position and more. It also
 permits clicking in buttons and write in box of chat and bet. 
 See screenshot0.png for table's design needed by the library. See psbot0.h for 
 types and variables and directory ./examples for examples. The library was 
-tested in play money and open skill league.
+tested in play money and open skill league from pokerstars software running
+over wine in slackware and ubuntu distros; results were very good, humbly.
 
 ### Dependencies: 
 - some linux distribution						<br/>
