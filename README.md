@@ -1,5 +1,5 @@
 # psbot0
-This code create a shared library with some functions to automatize tables of 
+This code create a shared library with some functions to automate tables of 
 texas's holdem poker, 2/6/9 seats, cash or tourney (PokerStars only). It can 
 capture data from tables like cards, stacks, stage, position and more. It also 
 permits clicking in buttons and write in box of chat and bet. 
