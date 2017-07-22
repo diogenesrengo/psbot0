@@ -4,8 +4,8 @@ texas's holdem poker, 2/6/9 seats, cash or tourney (PokerStars only). It can
 capture data from tables like cards, stacks, stage, position and more. It also 
 permits clicking in buttons and write in box of chat and bet. 
 See screenshot0.png for table's design needed by the library. See psbot0.h for 
-types and variables and directory ./examples for examples.
-The library was tested in play money and open league from Pokerstars software.
+types and variables and directory ./examples for examples. The library was 
+tested in play money and open skill league.
 <br/>
 Dependencies: some linux distro and packages ...
 slackware 14.2 : xdotool
