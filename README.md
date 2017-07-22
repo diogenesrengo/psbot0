@@ -1,5 +1,5 @@
 # psbot0
-A little library to automate poker tables (Pokerstars only)
+**A little library to automate poker tables (Pokerstars only)**
 
 This code create a shared library with some functions to automate tables of 
 texas's holdem poker, 2/6/9 seats, cash or tourney (PokerStars only). It can 
@@ -9,16 +9,22 @@ See screenshot0.png for table's design needed by the library. See psbot0.h for
 types and variables and directory ./examples for examples. The library was 
 tested in play money and open skill league.
 
-Dependencies: some linux distro and packages ...			<br/>
-slackware 14.2: xdotool							<br/>
-ubuntu 16.04: xdotool libxdo-dev imagemagick libmagick++-dev		<br/>
+Dependencies: 
+- some linux distribution						<br/>
+- slackware 14.2: xdotool						<br/>
+- ubuntu 16.04: xdotool libxdo-dev imagemagick libmagick++-dev		<br/>
 
-For install:   `./configure; sudo make && sudo make install`		<br/>
-For examples:  `make examples`						<br/>
-To compile your own code: `gcc -g -O2 -Wall -o mybot mybot.c -lpsbot0`	<br/>
+Installation: 								<br/>
+	./configure
+	sudo make 
+	sudo make install
+For examples: 								<br/>
+	make examples
+Your own code: 								<br/>
+	gcc -g -O2 -Wall -o mybot mybot.c -lpsbot0`
 
-<img src="https://github.com/diogenesrengo/psbot0/blob/master/screenshot0.png"/>
+![screenshot0] (https://github.com/diogenesrengo/psbot0/blob/master/screenshot0.png)
 
-This code is for educational purposes only. Automated software are generally
-prohibited by terms of service of your game provider ;)
+> This code is for educational purposes only. Automated software are generally
+> prohibited by terms of service of your game provider ;)
 
