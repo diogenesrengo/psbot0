@@ -17,8 +17,7 @@ tested in play money and open skill league.
 ### Installation:  							
 ```
 ./configure
-sudo make
-sudo make install
+make && sudo make install
 ```
 **For examples:** `make examples`					<br/>
 **Your own code:** `gcc -g -O2 -Wall -o mybot mybot.c -lpsbot0`		<br/>
