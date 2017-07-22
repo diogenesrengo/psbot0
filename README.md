@@ -9,21 +9,19 @@ See screenshot0.png for table's design needed by the library. See psbot0.h for
 types and variables and directory ./examples for examples. The library was 
 tested in play money and open skill league.
 
-## Dependencies: 
+### Dependencies: 
 - some linux distribution						<br/>
 - slackware 14.2: xdotool						<br/>
 - ubuntu 16.04: xdotool libxdo-dev imagemagick libmagick++-dev		<br/>
 
-## Installation:  							
+### Installation:  							
 ```
 ./configure
 sudo make
 sudo make install
 ```
-For examples:								<br/>  
-`make examples`								<br/>
-Your own code: 								<br/>
-`gcc -g -O2 -Wall -o mybot mybot.c -lpsbot0`				<br/>
+**For examples:** `make examples`					<br/>
+**Your own code:** `gcc -g -O2 -Wall -o mybot mybot.c -lpsbot0`		<br/>
 
 <img src="https://github.com/diogenesrengo/psbot0/blob/master/screenshot0.png"/>
 
