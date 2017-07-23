@@ -16,20 +16,22 @@ good, humbly.
 - slackware 14.2: xdotool						<br/>
 - ubuntu 16.04: xdotool libxdo-dev imagemagick libmagick++-dev		<br/>
 
-### Installation  							
+### Installation 
 ```
 ./configure
 make && sudo make install
 ```
-**For examples :** `make examples`					<br/>
-**Your own code:** `gcc -g -O2 -Wall -o mybot mybot.c -lpsbot0`		<br/>
+**For examples :** 							<br/>
+`make examples`								<br/>
+**Your own code:** 							<br/>
+`gcc -g -O2 -Wall -o mybot mybot.c -lpsbot0`				<br/>
 
 ### Screenshot
 <img src="https://github.com/diogenesrengo/psbot0/blob/master/screenshot0.png"/>
 
-This soft use GOCR library wich is a Optical-Character-Recognition program. 
-Copyright (C) 2000-2012  Joerg Schulenburg
+>This soft use GOCR library wich is a Optical-Character-Recognition program. 
+>Copyright (C) 2000-2012  Joerg Schulenburg
 
-This code is for educational purposes only. Automated software are generally
-prohibited by terms of service of your game provider ;)
+>This code is for educational purposes only. Automated software are generally
+>prohibited by terms of service of your game provider ;)
 
