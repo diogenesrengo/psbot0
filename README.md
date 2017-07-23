@@ -11,6 +11,12 @@ The library was tested in play money and open skill league from pokerstars
 software running over wine in slackware and ubuntu distros; results were very 
 good, humbly.
 
+This soft use GOCR library wich is a Optical-Character-Recognition program.
+Copyright (C) 2000-2012 Joerg Schulenburg.
+
+This code is for educational purposes only. Automated software are generally
+prohibited by terms of service of your game provider.
+
 ### Dependencies 
 - some linux distribution						<br/>
 - slackware 14.2: xdotool						<br/>
@@ -21,17 +27,8 @@ good, humbly.
 ./configure
 make && sudo make install
 ```
-**For examples :** 							<br/>
-`make examples`								<br/>
-**Your own code:** 							<br/>
-`gcc -g -O2 -Wall -o mybot mybot.c -lpsbot0`				<br/>
+**For examples :** `make examples`					<br/>
+**Your own code:** `gcc -g -O2 -Wall -o mybot mybot.c -lpsbot0`		<br/>
 
 ### Screenshot
 <img src="https://github.com/diogenesrengo/psbot0/blob/master/screenshot0.png"/>
-
->This soft use GOCR library wich is a Optical-Character-Recognition program. 
->Copyright (C) 2000-2012  Joerg Schulenburg
-
->This code is for educational purposes only. Automated software are generally
->prohibited by terms of service of your game provider ;)
-
